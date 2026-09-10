@@ -1,0 +1,14 @@
+{
+  "name": "rate-limit-simulator",
+  "version": "1.0.0",
+  "description": "Terminal demo comparing naive per-node rate limiting against a centralized counter and a hybrid cache-and-sync approach",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
