@@ -1,0 +1,12 @@
+{
+  "workflow": {
+    "mode": "standard",
+    "granularity": "phase",
+    "parallelization": true,
+    "research_before_questions": false
+  },
+  "project": {
+    "code": "RGATE",
+    "name": "RateGate"
+  }
+}
