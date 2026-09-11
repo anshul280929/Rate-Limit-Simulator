@@ -1,14 +1,27 @@
 {
-  "name": "rate-limit-simulator",
-  "version": "1.0.0",
-  "description": "Terminal demo comparing naive per-node rate limiting against a centralized counter and a hybrid cache-and-sync approach",
-  "main": "index.js",
+  "name": "rategate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Distributed rate limiter playground — interactive demo of rate limiting algorithms across simulated distributed nodes",
   "scripts": {
-    "start": "node index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
-  "engines": {
-    "node": ">=14"
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
-  "license": "MIT",
-  "dependencies": {}
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.12",
+    "typescript": "^5"
+  }
 }
