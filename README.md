@@ -26,7 +26,7 @@ RateGate simulates this with virtual nodes you can observe in real time:
 ## Quick Start
 
 ```bash
-git clone https://github.com/your-username/rategate.git
+git clone https://github.com/anshul280929/RateGate.git
 cd rategate
 npm install
 npm run dev
